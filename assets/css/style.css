@@ -375,6 +375,9 @@ body.page-navbar-fixed-top-sm {
     left: 0;
     bottom: 0;
     right: 0;
+
+    background: url(../img/main-bg.jpg) no-repeat top center;
+    background-size: cover;
 }
 .content.has-bg .content-bg img {
     max-width: 100%;
@@ -420,6 +423,8 @@ body.page-navbar-fixed-top-sm {
 .home {
     padding: 0 !important;
     color: #fff;
+
+    height: 60rem !important;
 }
 .home-content {
     z-index: 1020;
@@ -601,7 +606,7 @@ body.page-navbar-fixed-top-sm {
     margin-bottom: 5px;
 }
 .team .title {
-    font-size: 12px;
+    font-size: 2rem;
     margin-bottom: 15px;
     font-weight: 600;
 }
