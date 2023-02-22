@@ -379,6 +379,11 @@ body.page-navbar-fixed-top-sm {
     background: url(../img/main-bg.jpg) no-repeat top center;
     background-size: cover;
 }
+
+.content-bg.phrase{
+    background: url(../img/OAPN5353.JPG) no-repeat bottom center !important;
+}
+
 .content.has-bg .content-bg img {
     max-width: 100%;
 }
@@ -601,6 +606,7 @@ body.page-navbar-fixed-top-sm {
 }
 .team .image img {
     border-radius: 300px;
+    width: 14rem;
 }
 .team .name {
     margin-bottom: 5px;
