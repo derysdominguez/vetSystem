@@ -364,6 +364,12 @@ body.page-navbar-fixed-top-sm {
     margin-bottom: 60px;
     color: #242a30;
 }
+
+@media (max-width: 576px) {
+    #about .content-desc{
+        font-size: 1.5rem;
+    }
+}
 .content.has-bg {
     padding-bottom: 60px;
     overflow: hidden;
@@ -382,6 +388,7 @@ body.page-navbar-fixed-top-sm {
 
 .content-bg.phrase{
     background: url(../img/OAPN5353.JPG) no-repeat bottom center !important;
+    background-size: cover !important;
 }
 
 .content-bg.services{
@@ -485,6 +492,12 @@ body.page-navbar-fixed-top-sm {
     height: 30rem;
     background: url(../img/about.jpg) no-repeat center !important;
     background-size: cover !important;
+}
+
+@media (max-width: 576px) {
+    #about .about-image{
+        height: 15rem;
+    }
 }
 
 .about-author {
@@ -591,6 +604,14 @@ body.page-navbar-fixed-top-sm {
     color: #fff;
     font-weight: 300;
 }
+
+@media (max-width: 1199px) {
+    .milestone .number{
+        font-size: 2.5rem;
+    }
+}
+
+
 .milestone .title {
     color: #8F8E8E;
 }
@@ -672,6 +693,12 @@ body.page-navbar-fixed-top-sm {
     font-size: 14px;
     color: rgba(255,255,255,0.6);
     margin-top: 20px;
+}
+
+@media (max-width: 576px) {
+    .quote{
+        font-size: 2rem;
+    }
 }
 
 
