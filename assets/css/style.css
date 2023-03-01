@@ -195,7 +195,7 @@ body.page-navbar-fixed-top-sm {
     transition: all .2s linear;
 }
 .header.navbar .navbar-nav > li > a {
-    font-size: 12px;
+    font-size: 1.5rem;
     line-height: 20px;
     color: #2d353c;
     font-weight: 600;
@@ -221,7 +221,7 @@ body.page-navbar-fixed-top-sm {
     margin-top: -5px;
     border-radius: 4px;
 }
-.brand-logo + .brand-text {
+.brand-text {
     margin-left: 42px;
     display: block;
     color: #2d353c;
@@ -287,7 +287,7 @@ body.page-navbar-fixed-top-sm {
     background: #fff;
 }
 .header.navbar.navbar-transparent.navbar-small .navbar-nav > li > a,
-.header.navbar.navbar-transparent.navbar-small .brand-logo + .brand-text {
+.header.navbar.navbar-transparent.navbar-small + .brand-text {
     color: #2d353c;
 }
 .navbar-small .navbar-toggle {
@@ -727,36 +727,32 @@ body.page-navbar-fixed-top-sm {
     position: relative;
     overflow: hidden;
     margin-bottom: 10px;
+    height: 30rem;
 }
-.work .image img {
-    max-width: 100%;
+
+@media (max-width: 992px) {
+    .work{
+        height: 20rem;
+    }
 }
+@media (max-width: 768px) {
+    .work{
+        height: 40rem;
+    }
+}
+
+.work img {
+    width: 100%;
+    min-height: 100%;
+    /* aspect-ratio: 1; */
+    /* object-fit: contain; */
+}
+
 .work:hover .desc,
 .work:focus .desc {
     margin-top: -62px;
 }
-.work .desc {
-    padding: 12px 15px;
-    position: absolute;
-    right: 0;
-    left: 0;
-    top: 100%;
-    background: rgba(0, 0, 0, 0.7);
-    -webkit-transition: all .2s linear;
-    -moz-transition: all .2s linear;
-    transition: all .2s linear;
-}
-.work .desc .desc-title {
-    color: #fff;
-    font-size: 14px;
-    display: block;
-    font-weight: 600;
-}
-.work .desc .desc-text {
-    font-size: 12px;
-    color: #ccc;
-    display: block;
-}
+
 
 
 
@@ -973,6 +969,10 @@ body.page-navbar-fixed-top-sm {
 .footer .social-list {
     margin: 30px 0 0;
     font-size: 20px;
+}
+
+.footer .footer-description{
+    color: #707478;
 }
 
 
@@ -1863,10 +1863,14 @@ a.text-white:focus {
     border: 2px solid #ccd0d4;
     -webkit-box-shadow: none;
     box-shadow: none;
-    font-size: 12px;
+    font-size: 1.5rem;
     border-radius: 3px;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
+}
+
+.form-horizontal .control-label{
+    font-size: 1.7rem;
 }
 .form-control.input-white {
     background: #fff;
