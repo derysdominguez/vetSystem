@@ -366,7 +366,7 @@ body.page-navbar-fixed-top-sm {
 }
 
 @media (max-width: 576px) {
-    #about .content-desc{
+    .content-desc{
         font-size: 1.5rem;
     }
 }
@@ -757,16 +757,26 @@ body.page-navbar-fixed-top-sm {
     height: 30rem;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 991px) {
     .work{
         height: 20rem;
     }
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .work{
-        height: 40rem;
+        height: 28rem;
+    }
+    .work.center{
+        margin: 0 25%;
     }
 }
+
+@media (max-width: 576px) {
+    .work{
+        height: 15rem;
+    }
+}
+
 
 .work img {
     width: 100%;
