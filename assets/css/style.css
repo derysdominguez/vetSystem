@@ -632,6 +632,11 @@ body.page-navbar-fixed-top-sm {
     display: inline-block;
     border-radius: 300px;
     overflow: hidden;
+    height: 14rem;
+}
+
+.team .image.special {
+    padding: 1rem 0;
 }
 .team .info {
     margin-top: 15px;
