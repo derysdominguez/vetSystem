@@ -380,17 +380,17 @@ body.page-navbar-fixed-top-sm {
   bottom: 0;
   right: 0;
 
-  background: url(../img/pantallas/login.png) no-repeat top center;
+  background: url(../img/background.jpg) no-repeat top center;
   background-size: cover;
 }
 
 .content-bg.phrase {
-  background: url(../img/OAPN5353.JPG) no-repeat bottom center !important;
+  /* background: url(../img/OAPN5353.JPG) no-repeat bottom center !important; */
   background-size: cover !important;
 }
 
 .content-bg.services {
-  background: url(../img/20190814_083200.jpg) no-repeat center !important;
+  /* background: url(../img/20190814_083200.jpg) no-repeat center !important; */
   background-size: cover !important;
 }
 
@@ -2118,7 +2118,7 @@ a.text-white:focus {
 .btn.btn-outline-danger {
   /* color: #fff; */
   border-width: 2px;
-  border-color: #ff5b57;
+  border-color: #6ab544;
   background: none;
 }
 .btn.btn-outline-danger:hover,
